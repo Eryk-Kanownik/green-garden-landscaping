@@ -14,17 +14,6 @@ const CarouselCmp = () => {
     "https://picsum.photos/1103/703",
   ]);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
-  const timer = 3000;
-
-  useEffect(() => {
-    setTimeout(() => {
-      if (currentIndex === images.length - 1) {
-        setCurrentIndex(0);
-      } else if (currentIndex < images.length - 1) {
-        setCurrentIndex((prev) => prev + 1);
-      }
-    }, timer);
-  }, []);
 
   const choose = (src: string) => {
     let index = images.indexOf(src);

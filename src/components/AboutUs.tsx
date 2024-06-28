@@ -12,12 +12,13 @@ const AboutUs = () => {
           beautiful, sustainable gardens that enhance the beauty and
           functionality of your outdoor spaces. With years of experience and a
           passion for nature, our team is dedicated to providing top-notch
-          garden design, construction, and maintenance services. Whether you're
-          looking to transform your backyard into a tranquil oasis or need
-          regular maintenance to keep your garden looking its best, we've got
-          you covered. Explore our website to learn more about our services,
-          view our gallery of stunning projects, and read testimonials from our
-          satisfied clients. Let us help you create the garden of your dreams!
+          garden design, construction, and maintenance services. Whether
+          you&apos;re looking to transform your backyard into a tranquil oasis
+          or need regular maintenance to keep your garden looking its best,
+          we&apos;ve got you covered. Explore our website to learn more about
+          our services, view our gallery of stunning projects, and read
+          testimonials from our satisfied clients. Let us help you create the
+          garden of your dreams!
         </p>
         <div className="h-[100%]">
           <Image
