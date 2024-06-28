@@ -34,10 +34,10 @@ const Contact = () => {
         className="rounded-md mt-2"
         width="100%"
         height="500"
-        frameborder="0"
+        frameBorder="0"
         scrolling="no"
-        marginheight="0"
-        marginwidth="0"
+        marginHeight={0}
+        marginWidth={0}
         id="gmap_canvas"
         src="https://maps.google.com/maps?width=700&amp;height=500&amp;hl=en&amp;q=%20New%20York+(Where%20to%20find%20us?)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>{" "}
       <a href="http://maps-generator.com/pl">Maps-Generator.com PL</a>{" "}
