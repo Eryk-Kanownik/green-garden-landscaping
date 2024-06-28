@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const AboutUs = () => {
   return (
     <div className="section sm:px-6 md:px-20 lg:px-72" id="aboutus">
@@ -20,8 +20,9 @@ const AboutUs = () => {
           satisfied clients. Let us help you create the garden of your dreams!
         </p>
         <div className="h-[100%]">
-          <img
+          <Image
             src="https://picsum.photos/500/250"
+            alt="image"
             className="objcet-cover  rounded-md w-[100%]"
           />
         </div>

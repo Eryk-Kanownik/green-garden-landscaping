@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-
+import Image from "next/image";
 const HeroSection = () => {
   return (
     <div
@@ -22,7 +22,8 @@ const HeroSection = () => {
           <button className="text-white hover:text-black">Contact Us!</button>
         </Link>
       </div>
-      <img
+      <Image
+        alt="image"
         className="absolute top-0 left-0 -z-10 object-cover h-[100%] w-[100%] object-top"
         src="./hero-section-img.jpg"
       />

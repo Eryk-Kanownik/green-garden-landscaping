@@ -1,6 +1,6 @@
 import React from "react";
 import RatingCmp from "./RatingCmp";
-
+import Image from "next/image";
 interface ITestimonialCmp {
   personName: String;
   opinion: String;
@@ -15,7 +15,8 @@ const TestimonialCmp: React.FC<ITestimonialCmp> = ({
   return (
     <div className="shadow-md p-4 relative rounded-md">
       <div className="flex items-center gap-2 mb-2">
-        <img
+        <Image
+          alt="image"
           className=" w-[40px] h-[40px] object-cover rounded-full shadow-sm"
           src="https://picsum.photos/200/300"
         />

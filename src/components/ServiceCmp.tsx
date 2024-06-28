@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 interface IServiceCmp {
   title: String;
   description: String;
@@ -8,7 +8,8 @@ interface IServiceCmp {
 const ServiceCmp: React.FC<IServiceCmp> = ({ title, description }) => {
   return (
     <div className="shadow-md rounded-md">
-      <img
+      <Image
+        alt="image"
         src="https://picsum.photos/200/300"
         className="w-[100%] object-cover max-h-[400px] mb-4"
       />
