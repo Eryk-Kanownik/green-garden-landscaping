@@ -3,6 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import DotImageCmp from "./DotImageCmp";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import Image from "next/image";
 
 const CarouselCmp = () => {
   const ref = useRef<null | any>();
@@ -48,7 +49,8 @@ const CarouselCmp = () => {
 
   return (
     <div className="mt-4 relative rounded-md overflow-hidden ">
-      <img
+      <Image
+        alt="image"
         className="object-cover h-[500px] w-[100%] bg-black"
         src={images[currentIndex]}
       />

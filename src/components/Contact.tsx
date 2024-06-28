@@ -42,9 +42,11 @@ const Contact = () => {
         src="https://maps.google.com/maps?width=700&amp;height=500&amp;hl=en&amp;q=%20New%20York+(Where%20to%20find%20us?)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>{" "}
       <a href="http://maps-generator.com/pl">Maps-Generator.com PL</a>{" "}
       <script
+        async
         type="text/javascript"
         src="https://embedmaps.com/google-maps-authorization/script.js?id=953a16493ed276f8b6efc5ea04e6b153ae92255b"></script>
       <script
+        async
         type="text/javascript"
         src="https://embedmaps.com/google-maps-authorization/script.js?id=098b9b556c2441b7853cbffef0f1dc0262432569"></script>
     </div>
