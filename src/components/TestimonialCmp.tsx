@@ -19,6 +19,8 @@ const TestimonialCmp: React.FC<ITestimonialCmp> = ({
           alt="image"
           className=" w-[40px] h-[40px] object-cover rounded-full shadow-sm"
           src="https://picsum.photos/200/300"
+          width={500}
+          height={500}
         />
         <p className="text-sm">{personName}</p>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="section sm:px-6 md:px-20 lg:px-72" id="contact">
+    <div className="section" id="contact">
       <h2 className="mb-4">
         Get in <span className="text-green-500">Touch</span>
       </h2>

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const AboutUs = () => {
   return (
-    <div className="section sm:px-6 md:px-20 lg:px-72" id="aboutus">
+    <div className="section " id="aboutus">
       <h2 className="mb-2">
         About <span className="text-green-500">Us</span>
       </h2>
@@ -22,7 +22,9 @@ const AboutUs = () => {
         </p>
         <div className="h-[100%]">
           <Image
-            src="https://picsum.photos/500/250"
+            src="https://picsum.photos/500/300"
+            width={500}
+            height={300}
             alt="image"
             className="objcet-cover  rounded-md w-[100%]"
           />

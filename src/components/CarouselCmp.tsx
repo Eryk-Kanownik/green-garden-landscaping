@@ -42,6 +42,8 @@ const CarouselCmp = () => {
         alt="image"
         className="object-cover h-[500px] w-[100%] bg-black"
         src={images[currentIndex]}
+        width={500}
+        height={500}
       />
       <div className="absolute top-[50%] bottom-[50%] left-4">
         <FaAngleLeft

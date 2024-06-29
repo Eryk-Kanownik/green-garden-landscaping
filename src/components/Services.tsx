@@ -3,7 +3,7 @@ import ServiceCmp from "./ServiceCmp";
 
 const Services = () => {
   return (
-    <div className="section sm:px-6 md:px-20 lg:px-72" id="services">
+    <div className="section " id="services">
       <h2 className="mb-4">
         <span className="text-green-500">Our</span> Services
       </h2>

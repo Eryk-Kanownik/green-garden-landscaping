@@ -3,7 +3,7 @@ import TestimonialCmp from "./TestimonialCmp";
 
 const Testimonials = () => {
   return (
-    <div className="section sm:px-6 md:px-20 lg:px-72" id="testimonials">
+    <div className="section" id="testimonials">
       <h2 className="mb-8">
         What Our <span className="text-green-500">Clients</span> Say
       </h2>

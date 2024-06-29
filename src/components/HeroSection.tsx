@@ -1,10 +1,12 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import heroSectionPicture from "../../public/hero-section-img.jpg";
+
 const HeroSection = () => {
   return (
     <div
-      className="h-[85vh] flex justify-center items-center relative overflow-hidden bg-black/30"
+      className="h-[100vh] md:h-[85vh] flex justify-center items-center relative overflow-hidden bg-black/30"
       id="home">
       <div className="w-[800px] text-center mx-10">
         <h1 className="mb-2 text-white">
@@ -25,7 +27,9 @@ const HeroSection = () => {
       <Image
         alt="image"
         className="absolute top-0 left-0 -z-10 object-cover h-[100%] w-[100%] object-top"
-        src="./hero-section-img.jpg"
+        src={heroSectionPicture}
+        width={1000}
+        height={500}
       />
     </div>
   );

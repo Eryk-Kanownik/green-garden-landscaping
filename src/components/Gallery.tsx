@@ -3,7 +3,7 @@ import CarouselCmp from "./CarouselCmp";
 
 const Gallery = () => {
   return (
-    <div className="section sm:px-6 md:px-20 lg:px-72">
+    <div className="section ">
       <h2>
         Our <span className="text-green-500">Work</span>
       </h2>
