@@ -7,7 +7,7 @@ const Testimonials = () => {
       <h2 className="mb-8">
         What Our <span className="text-green-500">Clients</span> Say
       </h2>
-      <div className="sm:flex sm:flex-col sm:gap-4 md:grid md:grid-cols-3 md:gap-4">
+      <div className="flex flex-col gap-4 md:grid md:grid-cols-3 md:gap-4">
         <TestimonialCmp
           personName="Jane Doe"
           opinion="I couldn't be happier with the transformation Green Garden Landscaping made to my backyard. From the initial consultation to the final touches, the team was professional, attentive, and truly understood my vision. They created a beautiful, serene space that has become my favorite place to relax. Their attention to detail and quality craftsmanship exceeded my expectations. Highly recommend!"

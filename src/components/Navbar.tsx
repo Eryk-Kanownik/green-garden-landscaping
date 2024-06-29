@@ -80,7 +80,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div
-        className="block md:hidden absolute top-6 right-8 cursor-pointer"
+        className="block md:hidden absolute top-7 right-8 cursor-pointer"
         onClick={() => unfoldLinkList()}>
         <FaHamburger />
       </div>

@@ -13,12 +13,11 @@ const Contact = () => {
           <p>Phone Number: (123) 456-7890</p>
           <p>Email: contact@greengardenlandscaping.com</p>
         </div>
-        <form className="flex flex-col gap-2">
+        <form className="flex flex-col gap-2 mt-2 md:mt-0">
           <div>
             <h3>Contact form</h3>
             <p className="mb-1 text-sm">Contact us anytime!</p>
           </div>
-
           <input type="text" placeholder="Name..." />
           <input type="email" placeholder="Email..." />
           <input type="phone" placeholder="Phone number..." />

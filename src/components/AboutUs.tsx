@@ -6,7 +6,7 @@ const AboutUs = () => {
       <h2 className="mb-2">
         About <span className="text-green-500">Us</span>
       </h2>
-      <div className="sm:flex sm:flex-col sm:gap-4 md:grid md:grid-cols-2 md:gap-4 md:h-[300px] ">
+      <div className="flex flex-col gap-4 md:grid md:grid-cols-2 md:gap-4 md:h-[300px] ">
         <p>
           Welcome to Green Garden Landscaping! We specialize in creating
           beautiful, sustainable gardens that enhance the beauty and
@@ -15,10 +15,7 @@ const AboutUs = () => {
           garden design, construction, and maintenance services. Whether
           you&apos;re looking to transform your backyard into a tranquil oasis
           or need regular maintenance to keep your garden looking its best,
-          we&apos;ve got you covered. Explore our website to learn more about
-          our services, view our gallery of stunning projects, and read
-          testimonials from our satisfied clients. Let us help you create the
-          garden of your dreams!
+          we&apos;ve got you covered.
         </p>
         <div className="h-[100%]">
           <Image
@@ -26,7 +23,7 @@ const AboutUs = () => {
             width={500}
             height={300}
             alt="image"
-            className="objcet-cover  rounded-md w-[100%]"
+            className="objcet-cover rounded-md w-[100%]"
           />
         </div>
       </div>

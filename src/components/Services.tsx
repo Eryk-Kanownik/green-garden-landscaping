@@ -7,7 +7,7 @@ const Services = () => {
       <h2 className="mb-4">
         <span className="text-green-500">Our</span> Services
       </h2>
-      <div className="sm:flex sm:flex-col sm:gap-4 md:grid md:grid-cols-3 md:gap-4">
+      <div className="flex flex-col gap-4 md:grid md:grid-cols-3 md:gap-4">
         <ServiceCmp
           title="Design"
           description="At Green Garden Landscaping, our garden design service is tailored to create outdoor spaces that reflect your personal style and meet your specific needs."

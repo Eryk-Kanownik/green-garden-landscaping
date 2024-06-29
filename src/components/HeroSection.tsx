@@ -6,7 +6,7 @@ import heroSectionPicture from "../../public/hero-section-img.jpg";
 const HeroSection = () => {
   return (
     <div
-      className="h-[100vh] md:h-[85vh] flex justify-center items-center relative overflow-hidden bg-black/30"
+      className="h-[100dvh] md:h-[85dvh] flex justify-center items-center relative overflow-hidden bg-black/30"
       id="home">
       <div className="w-[800px] text-center mx-10">
         <h1 className="mb-2 text-white">
